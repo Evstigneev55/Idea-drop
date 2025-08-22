@@ -6,4 +6,4 @@ export interface Idea {
   tags: string[]
   createdAt: Date
   user: string
-};
+}

@@ -42,7 +42,6 @@ if (rootElement && !rootElement.innerHTML) {
           <RouterProvider router={router} />
         </StrictMode>
       </QueryClientProvider>
-      ,
     </AuthProvider>
   )
 }

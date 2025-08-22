@@ -199,7 +199,7 @@ const authRouteRouteChildren: authRouteRouteChildren = {
 }
 
 const authRouteRouteWithChildren = authRouteRoute._addFileChildren(
-  authRouteRouteChildren,
+  authRouteRouteChildren
 )
 
 const rootRouteChildren: RootRouteChildren = {

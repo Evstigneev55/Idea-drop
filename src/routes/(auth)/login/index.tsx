@@ -33,7 +33,9 @@ function LoginPage() {
     <div className='max-w-md mx-auto'>
       <h1 className='text-3xl font-bold mb-6'>Login</h1>
       {isError && (
-        <div className='text-red-700 px-4 py-2 rounded bg-red-100 mb-4'>{error.message}</div>
+        <div className='text-red-700 px-4 py-2 rounded bg-red-100 mb-4'>
+          {error.message}
+        </div>
       )}
 
       <form onSubmit={handleSubmit} className='space-y-4'>

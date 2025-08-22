@@ -39,6 +39,6 @@ export async function updateIdea(
     tags: string[]
   }
 ): Promise<Idea> {
-  const res = await api.put(`/ideas/${ideaId}`, updatedData);
-  return res.data;
+  const res = await api.put(`/ideas/${ideaId}`, updatedData)
+  return res.data
 }
